@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D454E4FC19B4FC22006B8CA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D454E4FB19B4FC22006B8CA7 /* Foundation.framework */; };
+		D454E4FE19B4FC23006B8CA7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D454E4FD19B4FC23006B8CA7 /* CoreGraphics.framework */; };
+		D454E50019B4FC23006B8CA7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D454E4FF19B4FC23006B8CA7 /* UIKit.framework */; };
+		D454E50619B4FC23006B8CA7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D454E50419B4FC23006B8CA7 /* InfoPlist.strings */; };
+		D454E50819B4FC23006B8CA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D454E50719B4FC23006B8CA7 /* main.m */; };
+		D454E50C19B4FC23006B8CA7 /* KIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D454E50B19B4FC23006B8CA7 /* KIAppDelegate.m */; };
+		D454E50F19B4FC23006B8CA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D454E50D19B4FC23006B8CA7 /* Main.storyboard */; };
+		D454E51219B4FC23006B8CA7 /* KIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D454E51119B4FC23006B8CA7 /* KIViewController.m */; };
+		D454E51419B4FC23006B8CA7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D454E51319B4FC23006B8CA7 /* Images.xcassets */; };
+		D454E51B19B4FC23006B8CA7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D454E51A19B4FC23006B8CA7 /* XCTest.framework */; };
+		D454E51C19B4FC23006B8CA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D454E4FB19B4FC22006B8CA7 /* Foundation.framework */; };
+		D454E51D19B4FC23006B8CA7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D454E4FF19B4FC23006B8CA7 /* UIKit.framework */; };
+		D454E52519B4FC23006B8CA7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D454E52319B4FC23006B8CA7 /* InfoPlist.strings */; };
+		D454E52719B4FC23006B8CA7 /* SugarToastTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D454E52619B4FC23006B8CA7 /* SugarToastTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D454E51E19B4FC23006B8CA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D454E4F019B4FC22006B8CA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D454E4F719B4FC22006B8CA7;
+			remoteInfo = SugarToast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D454E4F819B4FC22006B8CA7 /* SugarToast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SugarToast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D454E4FB19B4FC22006B8CA7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D454E4FD19B4FC23006B8CA7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D454E4FF19B4FC23006B8CA7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D454E50319B4FC23006B8CA7 /* SugarToast-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SugarToast-Info.plist"; sourceTree = "<group>"; };
+		D454E50519B4FC23006B8CA7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D454E50719B4FC23006B8CA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D454E50919B4FC23006B8CA7 /* SugarToast-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SugarToast-Prefix.pch"; sourceTree = "<group>"; };
+		D454E50A19B4FC23006B8CA7 /* KIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KIAppDelegate.h; sourceTree = "<group>"; };
+		D454E50B19B4FC23006B8CA7 /* KIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KIAppDelegate.m; sourceTree = "<group>"; };
+		D454E50E19B4FC23006B8CA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D454E51019B4FC23006B8CA7 /* KIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KIViewController.h; sourceTree = "<group>"; };
+		D454E51119B4FC23006B8CA7 /* KIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KIViewController.m; sourceTree = "<group>"; };
+		D454E51319B4FC23006B8CA7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D454E51919B4FC23006B8CA7 /* SugarToastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SugarToastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D454E51A19B4FC23006B8CA7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D454E52219B4FC23006B8CA7 /* SugarToastTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SugarToastTests-Info.plist"; sourceTree = "<group>"; };
+		D454E52419B4FC23006B8CA7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D454E52619B4FC23006B8CA7 /* SugarToastTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SugarToastTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D454E4F519B4FC22006B8CA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D454E4FE19B4FC23006B8CA7 /* CoreGraphics.framework in Frameworks */,
+				D454E50019B4FC23006B8CA7 /* UIKit.framework in Frameworks */,
+				D454E4FC19B4FC22006B8CA7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D454E51619B4FC23006B8CA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D454E51B19B4FC23006B8CA7 /* XCTest.framework in Frameworks */,
+				D454E51D19B4FC23006B8CA7 /* UIKit.framework in Frameworks */,
+				D454E51C19B4FC23006B8CA7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D454E4EF19B4FC22006B8CA7 = {
+			isa = PBXGroup;
+			children = (
+				D454E50119B4FC23006B8CA7 /* SugarToast */,
+				D454E52019B4FC23006B8CA7 /* SugarToastTests */,
+				D454E4FA19B4FC22006B8CA7 /* Frameworks */,
+				D454E4F919B4FC22006B8CA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D454E4F919B4FC22006B8CA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D454E4F819B4FC22006B8CA7 /* SugarToast.app */,
+				D454E51919B4FC23006B8CA7 /* SugarToastTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D454E4FA19B4FC22006B8CA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D454E4FB19B4FC22006B8CA7 /* Foundation.framework */,
+				D454E4FD19B4FC23006B8CA7 /* CoreGraphics.framework */,
+				D454E4FF19B4FC23006B8CA7 /* UIKit.framework */,
+				D454E51A19B4FC23006B8CA7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D454E50119B4FC23006B8CA7 /* SugarToast */ = {
+			isa = PBXGroup;
+			children = (
+				D454E50A19B4FC23006B8CA7 /* KIAppDelegate.h */,
+				D454E50B19B4FC23006B8CA7 /* KIAppDelegate.m */,
+				D454E50D19B4FC23006B8CA7 /* Main.storyboard */,
+				D454E51019B4FC23006B8CA7 /* KIViewController.h */,
+				D454E51119B4FC23006B8CA7 /* KIViewController.m */,
+				D454E51319B4FC23006B8CA7 /* Images.xcassets */,
+				D454E50219B4FC23006B8CA7 /* Supporting Files */,
+			);
+			path = SugarToast;
+			sourceTree = "<group>";
+		};
+		D454E50219B4FC23006B8CA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D454E50319B4FC23006B8CA7 /* SugarToast-Info.plist */,
+				D454E50419B4FC23006B8CA7 /* InfoPlist.strings */,
+				D454E50719B4FC23006B8CA7 /* main.m */,
+				D454E50919B4FC23006B8CA7 /* SugarToast-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D454E52019B4FC23006B8CA7 /* SugarToastTests */ = {
+			isa = PBXGroup;
+			children = (
+				D454E52619B4FC23006B8CA7 /* SugarToastTests.m */,
+				D454E52119B4FC23006B8CA7 /* Supporting Files */,
+			);
+			path = SugarToastTests;
+			sourceTree = "<group>";
+		};
+		D454E52119B4FC23006B8CA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D454E52219B4FC23006B8CA7 /* SugarToastTests-Info.plist */,
+				D454E52319B4FC23006B8CA7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D454E4F719B4FC22006B8CA7 /* SugarToast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D454E52A19B4FC23006B8CA7 /* Build configuration list for PBXNativeTarget "SugarToast" */;
+			buildPhases = (
+				D454E4F419B4FC22006B8CA7 /* Sources */,
+				D454E4F519B4FC22006B8CA7 /* Frameworks */,
+				D454E4F619B4FC22006B8CA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SugarToast;
+			productName = SugarToast;
+			productReference = D454E4F819B4FC22006B8CA7 /* SugarToast.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D454E51819B4FC23006B8CA7 /* SugarToastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D454E52D19B4FC23006B8CA7 /* Build configuration list for PBXNativeTarget "SugarToastTests" */;
+			buildPhases = (
+				D454E51519B4FC23006B8CA7 /* Sources */,
+				D454E51619B4FC23006B8CA7 /* Frameworks */,
+				D454E51719B4FC23006B8CA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D454E51F19B4FC23006B8CA7 /* PBXTargetDependency */,
+			);
+			name = SugarToastTests;
+			productName = SugarToastTests;
+			productReference = D454E51919B4FC23006B8CA7 /* SugarToastTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D454E4F019B4FC22006B8CA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KI;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = kaiinui;
+				TargetAttributes = {
+					D454E51819B4FC23006B8CA7 = {
+						TestTargetID = D454E4F719B4FC22006B8CA7;
+					};
+				};
+			};
+			buildConfigurationList = D454E4F319B4FC22006B8CA7 /* Build configuration list for PBXProject "SugarToast" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D454E4EF19B4FC22006B8CA7;
+			productRefGroup = D454E4F919B4FC22006B8CA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D454E4F719B4FC22006B8CA7 /* SugarToast */,
+				D454E51819B4FC23006B8CA7 /* SugarToastTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D454E4F619B4FC22006B8CA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D454E51419B4FC23006B8CA7 /* Images.xcassets in Resources */,
+				D454E50619B4FC23006B8CA7 /* InfoPlist.strings in Resources */,
+				D454E50F19B4FC23006B8CA7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D454E51719B4FC23006B8CA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D454E52519B4FC23006B8CA7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D454E4F419B4FC22006B8CA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D454E51219B4FC23006B8CA7 /* KIViewController.m in Sources */,
+				D454E50C19B4FC23006B8CA7 /* KIAppDelegate.m in Sources */,
+				D454E50819B4FC23006B8CA7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D454E51519B4FC23006B8CA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D454E52719B4FC23006B8CA7 /* SugarToastTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D454E51F19B4FC23006B8CA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D454E4F719B4FC22006B8CA7 /* SugarToast */;
+			targetProxy = D454E51E19B4FC23006B8CA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D454E50419B4FC23006B8CA7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D454E50519B4FC23006B8CA7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D454E50D19B4FC23006B8CA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D454E50E19B4FC23006B8CA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D454E52319B4FC23006B8CA7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D454E52419B4FC23006B8CA7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D454E52819B4FC23006B8CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D454E52919B4FC23006B8CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D454E52B19B4FC23006B8CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SugarToast/SugarToast-Prefix.pch";
+				INFOPLIST_FILE = "SugarToast/SugarToast-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D454E52C19B4FC23006B8CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SugarToast/SugarToast-Prefix.pch";
+				INFOPLIST_FILE = "SugarToast/SugarToast-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D454E52E19B4FC23006B8CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SugarToast.app/SugarToast";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SugarToast/SugarToast-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SugarToastTests/SugarToastTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D454E52F19B4FC23006B8CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SugarToast.app/SugarToast";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SugarToast/SugarToast-Prefix.pch";
+				INFOPLIST_FILE = "SugarToastTests/SugarToastTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D454E4F319B4FC22006B8CA7 /* Build configuration list for PBXProject "SugarToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D454E52819B4FC23006B8CA7 /* Debug */,
+				D454E52919B4FC23006B8CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D454E52A19B4FC23006B8CA7 /* Build configuration list for PBXNativeTarget "SugarToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D454E52B19B4FC23006B8CA7 /* Debug */,
+				D454E52C19B4FC23006B8CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D454E52D19B4FC23006B8CA7 /* Build configuration list for PBXNativeTarget "SugarToastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D454E52E19B4FC23006B8CA7 /* Debug */,
+				D454E52F19B4FC23006B8CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D454E4F019B4FC22006B8CA7 /* Project object */;
+}
