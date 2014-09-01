@@ -8,6 +8,9 @@
 
 #import "KIViewController.h"
 
+#import "KISugarToastOption.h"
+#import "KISugarToast.h"
+
 @interface KIViewController ()
 
 @end
@@ -17,6 +20,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    KISugarToastOption *option = [KISugarToastOption new];
+    option.backgroundColor = [UIColor blueColor];
+    option.label = @"hoge";
+    KISugarToast *toast = [[KISugarToast alloc] initWithOption:option];
+    [self.view addSubview:toast];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

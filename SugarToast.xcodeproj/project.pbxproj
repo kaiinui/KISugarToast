@@ -21,6 +21,8 @@
 		D454E51D19B4FC23006B8CA7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D454E4FF19B4FC23006B8CA7 /* UIKit.framework */; };
 		D454E52519B4FC23006B8CA7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D454E52319B4FC23006B8CA7 /* InfoPlist.strings */; };
 		D454E52719B4FC23006B8CA7 /* SugarToastTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D454E52619B4FC23006B8CA7 /* SugarToastTests.m */; };
+		D454E53319B4FDA2006B8CA7 /* KISugarToast.m in Sources */ = {isa = PBXBuildFile; fileRef = D454E53219B4FDA2006B8CA7 /* KISugarToast.m */; };
+		D454E53619B4FEBF006B8CA7 /* KISugarToastOption.m in Sources */ = {isa = PBXBuildFile; fileRef = D454E53519B4FEBF006B8CA7 /* KISugarToastOption.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		D454E52219B4FC23006B8CA7 /* SugarToastTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SugarToastTests-Info.plist"; sourceTree = "<group>"; };
 		D454E52419B4FC23006B8CA7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D454E52619B4FC23006B8CA7 /* SugarToastTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SugarToastTests.m; sourceTree = "<group>"; };
+		D454E53119B4FDA2006B8CA7 /* KISugarToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KISugarToast.h; sourceTree = "<group>"; };
+		D454E53219B4FDA2006B8CA7 /* KISugarToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KISugarToast.m; sourceTree = "<group>"; };
+		D454E53419B4FEBF006B8CA7 /* KISugarToastOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KISugarToastOption.h; sourceTree = "<group>"; };
+		D454E53519B4FEBF006B8CA7 /* KISugarToastOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KISugarToastOption.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,7 @@
 		D454E50119B4FC23006B8CA7 /* SugarToast */ = {
 			isa = PBXGroup;
 			children = (
+				D454E53019B4FD94006B8CA7 /* Classes */,
 				D454E50A19B4FC23006B8CA7 /* KIAppDelegate.h */,
 				D454E50B19B4FC23006B8CA7 /* KIAppDelegate.m */,
 				D454E50D19B4FC23006B8CA7 /* Main.storyboard */,
@@ -150,6 +157,17 @@
 				D454E52319B4FC23006B8CA7 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D454E53019B4FD94006B8CA7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D454E53119B4FDA2006B8CA7 /* KISugarToast.h */,
+				D454E53219B4FDA2006B8CA7 /* KISugarToast.m */,
+				D454E53419B4FEBF006B8CA7 /* KISugarToastOption.h */,
+				D454E53519B4FEBF006B8CA7 /* KISugarToastOption.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,7 +269,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D454E51219B4FC23006B8CA7 /* KIViewController.m in Sources */,
+				D454E53619B4FEBF006B8CA7 /* KISugarToastOption.m in Sources */,
 				D454E50C19B4FC23006B8CA7 /* KIAppDelegate.m in Sources */,
+				D454E53319B4FDA2006B8CA7 /* KISugarToast.m in Sources */,
 				D454E50819B4FC23006B8CA7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
