@@ -11,6 +11,8 @@
 @interface KISugarToastOption : NSObject
 
 @property UIColor *backgroundColor;
-@property NSString *label;
+@property (nonatomic, copy) NSString *label;
+@property UIFont *font;
+@property UIColor *labelColor;
 
 @end

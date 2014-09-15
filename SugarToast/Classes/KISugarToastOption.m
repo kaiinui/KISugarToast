@@ -10,4 +10,18 @@
 
 @implementation KISugarToastOption
 
+- (instancetype)init {
+    self = [super init];
+    if (self) {
+        
+    }
+    return self;
+}
+
+# pragma mark - Initialization
+
+- (void)initialize {
+    self.font = [UIFont systemFontOfSize:14.f];
+}
+
 @end

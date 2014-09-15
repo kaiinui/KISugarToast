@@ -22,8 +22,10 @@
     [super viewDidLoad];
     
     KISugarToastOption *option = [KISugarToastOption new];
-    option.backgroundColor = [UIColor blueColor];
-    option.label = @"hoge";
+    option.backgroundColor = [UIColor colorWithRed:0.376 green:0.49 blue:0.545 alpha:1];
+    option.label = @"Rate me please!";
+    option.font = [UIFont fontWithName:@"AvenirNext-Regular" size:16.f];
+    option.labelColor = [UIColor whiteColor];
     KISugarToast *toast = [[KISugarToast alloc] initWithOption:option];
     [self.view addSubview:toast];
 	// Do any additional setup after loading the view, typically from a nib.
@@ -32,6 +34,7 @@
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
+    
     // Dispose of any resources that can be recreated.
 }
 

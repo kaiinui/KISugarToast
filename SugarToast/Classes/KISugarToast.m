@@ -32,9 +32,23 @@ static CGSize CRNotificationViewSize() {
 @implementation KISugarToast
 
 - (id)initWithOption:(KISugarToastOption *)option {
-    self = [self initWithFrame:CGRectMake(0, [UIScreen mainScreen].bounds.size.height - 44.0f, CRGetStatusBarWidth(), 44.0f)];
+    CGRect frame = CGRectMake(0, [UIScreen mainScreen].bounds.size.height - 44.0f, CRGetStatusBarWidth(), 44.0);
+    self = [self initWithFrame:frame];
     if (self) {
         self.backgroundColor = option.backgroundColor;
+        
+        UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(14.f, 0, CRGetStatusBarWidth(), 44.0f)];
+        label.text = option.label;
+        label.textColor = option.labelColor;
+        label.font = option.font;
+        label.textAlignment = NSTextAlignmentLeft;
+        [self addSubview:label];
+        
+        UILabel *label2 = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, CRGetStatusBarWidth() - 14.f, 44.f)];
+        label2.text = @"NEW";
+        label2.textColor = option.labelColor;
+        label2.textAlignment = NSTextAlignmentRight;
+        [self addSubview:label2];
     }
     return self;
 }

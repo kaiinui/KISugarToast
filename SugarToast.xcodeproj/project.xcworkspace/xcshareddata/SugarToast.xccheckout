@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>294D5BA6-CF1B-434A-981F-C5DEBB07C54C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SugarToast</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EA105B3E-05B0-447B-8614-62E4289C81E3</key>
+		<string>ssh://github.com/kaiinui/KISugarToast.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SugarToast.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EA105B3E-05B0-447B-8614-62E4289C81E3</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/kaiinui/KISugarToast.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EA105B3E-05B0-447B-8614-62E4289C81E3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EA105B3E-05B0-447B-8614-62E4289C81E3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SugarToast</string>
+		</dict>
+	</array>
+</dict>
+</plist>
